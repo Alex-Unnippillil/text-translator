@@ -1,4 +1,4 @@
 # text-translator
 
-![image](https://github.com/Alex-Unnippillil/text-translator/assets/24538548/38edfe8a-ac63-4957-b30c-e98c3d1e2ec9)
+![image](https://github.com/Alex-Unnippillil/text-translator/assets/24538548/e20b886b-d915-46a9-a654-2f8c1661436f)
 
