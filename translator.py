@@ -12,13 +12,13 @@ class LanguageLearningBuddy(QWidget):
         self.init_ui()
 
     def init_ui(self):
-        self.setWindowTitle("Language Learning Buddy")
+        self.setWindowTitle("Translator App")
         self.setGeometry(100, 100, 500, 400)
         self.set_modern_palette()
 
         layout = QVBoxLayout()
 
-        self.word_label = QLabel("Enter the word to translate:", self)
+        self.word_label = QLabel("Enter the text to translate:", self)
         self.word_input = QLineEdit(self)
 
         self.source_lang_label = QLabel("Select the source language:", self)
