@@ -4,7 +4,7 @@ from PyQt5.QtGui import QColor, QPalette, QFont, QIcon, QClipboard
 from PyQt5.QtCore import Qt
 from googletrans import LANGUAGES, Translator
 
-class LanguageLearningBuddy(QWidget):
+class TranslatorApp(QWidget):
     def __init__(self):
         super().__init__()
 
@@ -12,7 +12,7 @@ class LanguageLearningBuddy(QWidget):
         self.init_ui()
 
     def init_ui(self):
-        self.setWindowTitle("Translator App")
+        self.setWindowTitle("Text Translator")
         self.setGeometry(100, 100, 500, 400)
         self.set_modern_palette()
 
@@ -150,7 +150,7 @@ def main():
     app_icon = QIcon(icon_path)
     app.setWindowIcon(app_icon)
 
-    buddy = LanguageLearningBuddy()
+    buddy = TranslatorApp()
     buddy.show()
     sys.exit(app.exec_())
 
